@@ -37,10 +37,11 @@
             this.radGeneral = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
+            this.radBackStall = new System.Windows.Forms.RadioButton();
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.discountLabel = new System.Windows.Forms.Label();
             this.discountTextBox = new System.Windows.Forms.TextBox();
-            this.radBackStall = new System.Windows.Forms.RadioButton();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -132,6 +133,16 @@
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
             // 
+            // radBackStall
+            // 
+            this.radBackStall.AutoSize = true;
+            this.radBackStall.Location = new System.Drawing.Point(26, 94);
+            this.radBackStall.Name = "radBackStall";
+            this.radBackStall.Size = new System.Drawing.Size(73, 17);
+            this.radBackStall.TabIndex = 9;
+            this.radBackStall.Text = "Back Stall";
+            this.radBackStall.UseVisualStyleBackColor = true;
+            // 
             // cmdCalculate
             // 
             this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
@@ -158,21 +169,22 @@
             this.discountTextBox.Size = new System.Drawing.Size(100, 20);
             this.discountTextBox.TabIndex = 12;
             // 
-            // radBackStall
+            // checkBox1
             // 
-            this.radBackStall.AutoSize = true;
-            this.radBackStall.Location = new System.Drawing.Point(26, 94);
-            this.radBackStall.Name = "radBackStall";
-            this.radBackStall.Size = new System.Drawing.Size(73, 17);
-            this.radBackStall.TabIndex = 9;
-            this.radBackStall.Text = "Back Stall";
-            this.radBackStall.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(280, 95);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 13;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 445);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.discountTextBox);
             this.Controls.Add(this.discountLabel);
             this.Controls.Add(this.cmdCalculate);
@@ -207,6 +219,7 @@
         private System.Windows.Forms.Label discountLabel;
         private System.Windows.Forms.TextBox discountTextBox;
         private System.Windows.Forms.RadioButton radBackStall;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
